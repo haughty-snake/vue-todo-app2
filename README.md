@@ -1,6 +1,6 @@
 # vue-todo-app2
 
-> A Vue.js project
+> A Vue.js project - Vue.js 입문 장기효 지음 실습
 
 ## Build Setup
 
