@@ -28,6 +28,9 @@ export default {
   },
   methods: {
     addTodo(todoItem) {
+      if(localStorage.getItem(todoItem)){
+        return;
+      }
       localStorage.setItem(todoItem, todoItem);
       this.todoItems.push(todoItem);
     },
